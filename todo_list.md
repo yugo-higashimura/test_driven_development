@@ -8,4 +8,7 @@
 - [ ] hashCode()
 - [ ] nullとの等価性比較
 - [ ] 他のオブジェクトとの等価性比較
-- [ ] 5CHF * 2 = 10CHF 
+- [X] ~~*5CHF * 2 = 10CHF*~~ [2024-07-28]
+- [ ] Dollar と Franc の重複
+- [ ] equals の一般化
+- [ ] times の一般化
