@@ -4,3 +4,5 @@
 - [ ] amount を private にする
 - [X] ~~*Dollar の副作用どうする？*~~ [2024-07-28]
 - [ ] Money の丸め処理どうする？
+- [ ] equals()
+- [ ] hashCode()
