@@ -14,3 +14,4 @@
 - [ ] times の一般化
 - [X] ~~*Franc と Dollar を比較する*~~ [2024-07-28]
 - [ ] 通貨の概念
+- [ ] testFrancMultiplication を削除する？
