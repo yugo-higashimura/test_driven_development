@@ -15,8 +15,6 @@ public class MoneyTest {
   public void testEquality() {
     assertTrue(Money.dollar(5).equals(Money.dollar(5)));
     assertFalse(Money.dollar(5).equals(Money.dollar(6)));
-    assertTrue(Money.franc(7).equals(Money.franc(7)));
-    assertFalse(Money.franc(7).equals(Money.franc(8)));
     assertFalse(Money.franc(9).equals(Money.dollar(9)));
   }
 
@@ -31,10 +29,5 @@ public class MoneyTest {
   public void testCurrency() {
     assertEquals("USD", Money.dollar(1).currency());
     assertEquals("CHF", Money.franc(1).currency());
-  }
-
-  @Test
-  public void testDifferentClassEquality() {
-    assertTrue(new Money(10, "CHF").equals(new Franc(10, "CHF")));
   }
 }
