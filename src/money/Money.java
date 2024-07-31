@@ -1,6 +1,6 @@
 package money;
 
-abstract public class Money {
+public class Money {
   protected int amount;
   protected String currency;
 
@@ -9,7 +9,9 @@ abstract public class Money {
     this.currency = currency;
   }
 
-  abstract Money times(int multiplier);
+  Money times(int multiplier) {
+    return null;
+  }
 
   String currency() {
     return currency;
