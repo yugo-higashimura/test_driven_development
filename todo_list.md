@@ -26,4 +26,4 @@
 * [X] ~~*Money を変換して換算を行う*~~ [2024-08-04]
 * [X] ~~*Reduce(Bank, String)*~~ [2024-08-04]
 * [X] ~~*Sum.plus*~~ [2024-08-04]
-* [ ] Expression.times
+* [X] ~~*Expression.times*~~ [2024-08-04]
