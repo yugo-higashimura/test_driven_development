@@ -22,4 +22,6 @@
 * [ ] $5 + 10CHF = $10 (レートが2:1の場合)
 * [ ] $5 + $5 = $10
 * [ ] $5 + $5 が Money を返す
-* [ ] Bank.reduce(Money)
+* [X] ~~*Bank.reduce(Money)*~~ [2024-08-04]
+* [ ] Money を変換して換算を行う
+* [ ] Reduce(Bank, String)
