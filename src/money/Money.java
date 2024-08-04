@@ -18,7 +18,11 @@ public class Money implements Expression {
   }
 
   Expression plus(Money addend) {
-    return new Money(amount + addend.amount, currency);
+    return new Sum(this, addend);
+  }
+
+  public String toString() {
+    return amount + " " + currency;
   }
 
   public boolean equals(Object object) {
