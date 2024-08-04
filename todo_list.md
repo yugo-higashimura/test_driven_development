@@ -23,5 +23,5 @@
 * [ ] $5 + $5 = $10
 * [ ] $5 + $5 が Money を返す
 * [X] ~~*Bank.reduce(Money)*~~ [2024-08-04]
-* [ ] Money を変換して換算を行う
-* [ ] Reduce(Bank, String)
+* [X] ~~*Money を変換して換算を行う*~~ [2024-08-04]
+* [X] ~~*Reduce(Bank, String)*~~ [2024-08-04]
